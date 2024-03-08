@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2> Before Clicking</h2>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me 
+        </button>
+        <p id="demo"></p>
+        <script>
+            
+            function hello() {
+                document.getElementById('sample').innerHTML = "This is my first web page with JS";
+                document.getElementById('sample').style.backgroundColor = "blue";
+                document.getElementById('sample').style.color = "white";
+
+                document.getElementById('anothersample').innerHTML = "by: SHIENALLY VILLACENCIO";
+                document.getElementById('anothersample').style.backgroundColor = "yellow";
+                document.getElementById('anothersample').style.color = "red";
+
+                document.getElementById('anothersample1').innerHTML = "Advance JS and JS Framework";
+                document.getElementById('anothersample1').style.backgroundColor = "red";
+                document.getElementById('anothersample1').style.color = "white";
+    }
+        </script>
+    </head>
+    <body>
+        <h2> Before Clicking</h2>
+        <button type="button"
+        onClick="hello()">Click me </button>
+        <p id="sample"></p>
+        <p id="anothersample"></p>
+        <p id="anothersample1"></p>
+        
+    </body>
+</html>
